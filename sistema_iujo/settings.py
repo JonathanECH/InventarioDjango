@@ -36,8 +36,13 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'django.contrib.staticfiles',
-]
+    'django.contrib.staticfiles',# Mis Apps 
+    'inventario', 
+    'rest_framework', 
+] 
+# Configuración de Redirección (Seguridad) 
+LOGIN_REDIRECT_URL = 'lista_productos' 
+LOGOUT_REDIRECT_URL = 'login'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
