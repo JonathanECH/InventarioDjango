@@ -16,7 +16,7 @@ Ejecuta los siguientes comandos en tu terminal para aislar el proyecto y descarg
 python -m venv venv
 
 # Activar en Windows
-.\venv\Scripts\activate
+source env\Scripts\activate
 
 # Instalar Django y REST Framework
 pip install django djangorestframework
